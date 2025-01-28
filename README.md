@@ -2,7 +2,7 @@
 
 Here's a breakdown of the process of configuring the extension to a custom module:
 1. In the custom module where you need the extension's functionalities, create three custom fields: SiteId, DriveId, and DriveItemId.
-2. Download the ZIP file from this repository.
+2. Download the ZIP (SP_custom_module) file from this repository.
 3. Unzip the file and navigate to the following path within the unzipped folder: *SP_Custom_Feature* > *app* > *js* > *folderSync.js*.
 4. Open the folderSync.js file in any JavaScript editor.
 5. Under the variable *Constants*, you'll find the siteId, driveId, and driveItemId keys. Provide the API names of the custom fields you created as values.
